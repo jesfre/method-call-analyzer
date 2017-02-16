@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <appender class="org.apache.log4j.ConsoleAppender" name="stdout">
+    	<param name="Threshold" value="INFO"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param value="%m%n" name="ConversionPattern"/>
+        </layout>
+    </appender>
+    <appender class="org.apache.log4j.FileAppender" name="txtFile">
+    	<param name="Threshold" value="TRACE"/>
+        <param value="false" name="Append"/>
+        <param value="log.txt" name="File"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param value="[%-5p] %m%n" name="ConversionPattern"/>
+        </layout>
+    </appender>
+    <root>
+    	<level value="DEBUG"/>
+        <appender-ref ref="txtFile"/>
+        <appender-ref ref="stdout"/>
+    </root>
+</log4j:configuration>

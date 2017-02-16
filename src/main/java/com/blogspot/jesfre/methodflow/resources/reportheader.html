@@ -1,0 +1,40 @@
+<style>
+html * {
+	font-family: Calibri;
+	font-size: 20px;
+}
+</style>
+<script type='text/javascript'>
+	function toggle(elementId){
+		if(document.getElementById('content'+elementId).style.display == 'block') {
+			document.getElementById('content'+elementId).style.display='none';
+			document.getElementById('btn'+elementId).innerHTML='+&nbsp;';
+		} else {
+			document.getElementById('content'+elementId).style.display='block';
+			document.getElementById('btn'+elementId).innerHTML='&ndash;&nbsp;';
+		}
+	}
+	
+	function expandAll() {
+		var expanders = document.getElementsByName('expander');
+		var containers = document.getElementsByName('container');
+		for(var i = 0; i < expanders.length; i++) {
+			containers[i].style.display='block';
+			expanders[i].innerHTML='&ndash;&nbsp;';
+		}
+	}
+	
+	function collapseAll() {
+		var expanders = document.getElementsByName('expander');
+		var containers = document.getElementsByName('container');
+		for(var i = 0; i < expanders.length; i++) {
+			containers[i].style.display='none';
+			expanders[i].innerHTML='+&nbsp;';
+		}
+	}
+</script>
+
+<button onclick="javascript:expandAll()">Expand All</button>
+<button onclick="javascript:collapseAll()">Collapse All</button>
+<br/>
+<br/>
