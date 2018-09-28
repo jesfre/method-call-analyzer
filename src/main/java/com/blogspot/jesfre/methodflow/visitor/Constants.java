@@ -4,7 +4,7 @@
 package com.blogspot.jesfre.methodflow.visitor;
 
 /**
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  * Nov 17, 2016
  */
 public final class Constants {

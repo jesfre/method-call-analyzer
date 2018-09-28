@@ -50,7 +50,7 @@ import com.blogspot.jesfre.methodflow.serialization.SerializationUtils;
 /**
  * Generates a graph of the method calls from a method entry point.
  * 
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  *         Dec 2, 2016
  */
 public class MethodCallGraph {
