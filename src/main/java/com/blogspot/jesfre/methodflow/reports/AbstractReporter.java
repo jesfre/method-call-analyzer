@@ -25,7 +25,7 @@ import com.blogspot.jesfre.methodflow.visitor.Constants.ReportColumn;
 import com.blogspot.jesfre.methodflow.visitor.MethodIndexer;
 
 /**
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  *         Nov 29, 2016
  */
 public abstract class AbstractReporter {

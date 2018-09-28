@@ -9,7 +9,7 @@ import java.util.Collection;
 import com.blogspot.jesfre.methodflow.common.MethodCallComposite;
 
 /**
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  * Dec 4, 2016
  */
 public class SerMethodIndexEntry implements Serializable {

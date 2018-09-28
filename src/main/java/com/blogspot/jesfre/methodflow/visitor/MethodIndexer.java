@@ -49,7 +49,7 @@ import com.blogspot.jesfre.methodflow.serialization.SerializationUtils;
 /**
  * Discovers and indexes all methods in the classpath
  * 
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  *         Nov 30, 2016
  */
 public class MethodIndexer {

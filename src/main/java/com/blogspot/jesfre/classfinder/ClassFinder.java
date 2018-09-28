@@ -17,7 +17,7 @@ import org.apache.commons.lang.StringUtils;
 import com.blogspot.jesfre.methodflow.common.Configuration;
 
 /**
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  * Dec 7, 2016
  */
 public class ClassFinder {
