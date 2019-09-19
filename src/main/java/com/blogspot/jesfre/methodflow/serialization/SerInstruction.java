@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 /**
  * Holds the information of serializable method and corresponding serializable class.
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  * Feb 16, 2017
  */
 public class SerInstruction implements Serializable {
