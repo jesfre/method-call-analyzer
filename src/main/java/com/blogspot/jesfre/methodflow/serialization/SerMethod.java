@@ -6,7 +6,7 @@ package com.blogspot.jesfre.methodflow.serialization;
 import java.io.Serializable;
 
 /**
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  * Dec 4, 2016
  */
 public class SerMethod implements Serializable {
