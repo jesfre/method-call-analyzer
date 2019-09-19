@@ -6,7 +6,7 @@ package com.blogspot.jesfre.methodflow.common;
 /**
  * Holds the information about a visited method.
  * 
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  *         Dec 13, 2016
  */
 public class VisitedMethod {
