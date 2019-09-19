@@ -12,7 +12,7 @@ import com.blogspot.jesfre.methodflow.common.Configuration;
 /**
  * Set of method to serialize/deserialize the method index.
  * 
- * @author <a href="mailto:jruizaquino@deloitte.com">Jorge Ruiz Aquino</a>
+ * @author <a href="mailto:jorge.ruiz.aquino@gmail.com">Jorge Ruiz Aquino</a>
  *         Dec 4, 2016
  */
 public final class SerializationUtils {
